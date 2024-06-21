@@ -1,25 +1,120 @@
-
 body {
-    background-color:lightslategrey;
-  }
+  background-color:rgb(6, 28, 49);
+}
+
+.fylo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fylo a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
   
-  .fylo {
+}
+
+.information {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.information h1{
+font-size: 2.2rem;
+}
+.information p{
+font-size: 2rem;
+line-height: 2.5rem; /* Adjust this value as needed */
+max-width: 80%; /* Adjust this value as needed */
+margin-bottom: 10px;
+}
+.information button{
+border-radius:50px;
+padding:1% 5%;
+background-color: aqua;
+color: white;
+border: none;
+cursor: pointer;
+}
+.img-1{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-2{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#container{
+background-image: url('/images/bg-curvy-desktop.svg');
+background-size: cover;
+background-position:center;
+overflow: hidden;
+
+}
+.h2{
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+.p{
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+@media (max-width:768px) {
+  .fylo{
+      font-size: 1rem;
+      align-items: center;
+      flex-direction:row;
+      margin: 8px;
+  }
+  body{
+    display: flex;
+  }
+  .intro{
+    align-items: center;
+    scale: 0.5;
+  
+  }
+}
+.productive{
+color: white;
+display: flex;
+justify-content: space-evenly;
+margin-top:10%;
+  .fylo{
     display: flex;
     justify-content: space-between;
   }
-  
   .fylo a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
     margin: 10px;
   }
-  
+  .about h1{
+    font-size:90px;
+  }
   .intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
   
   .information {
@@ -31,17 +126,16 @@ body {
     text-align: center;
   }
   
-.information h1,
+.information h1{
+  font-size: 2rem;
+}
 .information p{
-  font-size: 1.2rem; 
-  margin-bottom: 10px;
+  font-size:1.5rem; 
 }
 .information button{
   border-radius: 30px;
-  padding:2% 10%;
   background-color: aqua;
   color: white;
-  font-weight: bold;
   border: none;
   cursor: pointer;
 }
@@ -79,12 +173,17 @@ body {
     .fylo{
         font-size: 1rem;
         align-items: center;
-        flex-direction:column;
+        flex-direction:row;
     }
     body{
       display: flex;
+      text-align: center;
+    }
+    .intro{
+      scale:0.5;
     }
 }
+
 .productive{
   color: white;
   display: flex;
@@ -104,4 +203,18 @@ body {
   padding:5% 2%;
   display: flex;
   color: white;
+}
+}
+.productive a{
+color: aqua;
+}
+.productivity{
+display: flex;
+justify-content: space-evenly;
+}
+.box{
+border: 2px solid rgb(21, 27, 79);
+display: inline-block;
+padding:5% 2%;
+color: white;
 }
