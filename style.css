@@ -64,9 +64,10 @@ body {
         flex-direction: column;
     }
 }
-@media (max-width:480px) {
+@media (max-width:768px) {
     body{
         display: flex;
+        align-items: center;
         justify-content: space-evenly;
         text-align: center;
     }
