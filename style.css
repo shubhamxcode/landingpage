@@ -1,0 +1,73 @@
+
+body {
+    background-color: black;
+    margin-top: 2%;
+    padding: 0% 2%;
+  }
+  
+  .fylo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fylo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .information {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+.information h1,
+.information p {
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+}
+.img-1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.h2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    color: white;
+    justify-content: space-evenly;
+}
+.p{
+    display: flex;
+    /* flex-wrap: wrap; */
+    color: white;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .fylo{
+        font-size: 1rem;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width:480px) {
+    body{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+}
