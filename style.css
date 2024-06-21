@@ -61,14 +61,11 @@ body {
     .fylo{
         font-size: 1rem;
         align-items: center;
-        flex-direction: column;
+        flex-direction:column;
     }
 }
 @media (max-width:768px) {
     body{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
+        display: flex; 
     }
 }
