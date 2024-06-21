@@ -49,11 +49,13 @@ body {
     margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .img-2{
     margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #container{
   background-image: url('/images/bg-curvy-desktop.svg');
@@ -100,5 +102,6 @@ body {
   border: 2px solid rgb(21, 27, 79);
   display: inline-block;
   padding:5% 2%;
+  display: flex;
   color: white;
 }
