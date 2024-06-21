@@ -50,11 +50,15 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+.img-2{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
 #container{
   background-image: url('/images/bg-curvy-desktop.svg');
   background-size: cover;
   background-position:center;
-  
   overflow: hidden;
 }
 .h2{
@@ -75,17 +79,20 @@ body {
         align-items: center;
         flex-direction:column;
     }
+    body{
+      display: flex;
+    }
 }
-.header{
+.productive{
   color: white;
   display: flex;
   justify-content: space-evenly;
   margin-top:10%;
 }
-.header a{
+.productive a{
   color: aqua;
 }
-.section{
+.productivity{
   display: flex;
   justify-content: space-evenly;
 }
