@@ -81,24 +81,30 @@ overflow: hidden;
   .fylo{
       font-size: 1rem;
       align-items: center;
-      flex-direction:row;
+      flex-direction: row;
       margin: 8px;
   }
-  body{
-    display: flex;
+  .boxes-1{
+    flex-direction: column;
   }
   .intro{
-    align-items: center;
-    scale: 0.5;
-  
+    scale: 0.4;
+  }
+  .information{
+    font-size: 1rem;
+    flex-wrap: wrap;
   }
   .productive{
-    scale: 0.5;
+    scale: 0.7;
+    flex-wrap: wrap;
+  }
+  .below_text{
+    font-size:50px;
     flex-wrap: wrap;
   }
   .productivity{
     font-size: 1rem;
-    flex-direction: column;
+    flex-direction:column;
   }
 }
 .productive{
