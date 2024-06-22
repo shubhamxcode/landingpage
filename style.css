@@ -92,6 +92,14 @@ overflow: hidden;
     scale: 0.5;
   
   }
+  .productive{
+    scale: 0.5;
+    flex-wrap: wrap;
+  }
+  .productivity{
+    font-size: 1rem;
+    flex-direction: column;
+  }
 }
 .productive{
 color: white;
