@@ -218,15 +218,17 @@ color: white;
   color: #a0a3a7;
 }
 
-.footer-center p {
-  display: flex;
+/* .footer-center p {
+
   align-items: center;
   justify-content: center;
   color: #a0a3a7;
-}
+} */
 
-.footer-center p i {
-  margin-right: 0.5em;
+.footer-center {
+  /* margin-right: 0.5em; */
+  display: flex;
+  align-items: center;
 }
 
 .footer-right a {
